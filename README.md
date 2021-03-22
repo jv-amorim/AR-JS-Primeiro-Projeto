@@ -2,11 +2,14 @@
 
 Projeto simples utilizando o A-Frame e o AR.js, com o intuito de estudar a criação de aplicações WebAR (realidade aumentada na web).
 
+<img src="./exemplo.jpg" width="50%">
+
 ## Instruções
 
 1. Acesse a página da aplicação, [clicando aqui](https://jv-amorim.github.io/AR-JS-Primeiro-Projeto/). É necessário acessar com um dispositivo que possua câmera. Além disso, utilize um navegador atualizado que tenha suporte à utilização da câmera do dispositivo.
 2. Será solicitado o acesso à câmera do seu dispositivo. Permita o acesso.
-3. Ao acessar a página da aplicação, você deverá apontar a câmera do dispositivo para a seguinte imagem: [visualizar a imagem](./assets/custom-pattern.png). A leitura da imagem permitirá a exibição do modelo 3D em realidade autmentada.
+3. Ao acessar a página da aplicação, você deverá apontar a câmera do dispositivo para a imagem abaixo. A leitura da imagem permitirá a exibição do modelo 3D em realidade aumentada.
+![Imagem](./assets/custom-pattern.png)
 
 ## Licença
 
