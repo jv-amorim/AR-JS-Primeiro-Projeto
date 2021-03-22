@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>AR.js - Primeiro Projeto</title>
+    <script src="./src/aframe.min.js"></script>
+    <script src="./src/aframe-ar.js"></script>
+</head>
+<body style="margin : 0px; overflow: hidden;">
+	<a-scene embedded arjs="sourceType: webcam;">
+        <a-entity obj-model="obj: url(./assets/shrek-model/shrek.obj); mtl: url(./assets/shrek-model/shrek.mtl)" scale="1 1 1"></a-entity>
+		<a-marker-camera type="pattern" url="./assets/custom-pattern.patt"></a-marker-camera>
+	</a-scene>
+</body>
+</html>
